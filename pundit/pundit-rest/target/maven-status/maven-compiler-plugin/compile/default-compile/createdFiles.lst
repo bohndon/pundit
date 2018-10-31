@@ -1,0 +1,12 @@
+com/nbohn/pundit/rest/initialization/InitializeData.class
+com/nbohn/pundit/rest/repository/PunRepository.class
+com/nbohn/pundit/rest/model/enumeration/PunType.class
+com/nbohn/pundit/rest/service/PunServiceImpl.class
+com/nbohn/pundit/rest/model/entity/Pun.class
+com/nbohn/pundit/rest/controller/PunController.class
+com/nbohn/pundit/rest/validation/ValidationConstants.class
+com/nbohn/pundit/rest/PunditRestApplication.class
+com/nbohn/pundit/rest/model/entity/EntityBeanUtil.class
+com/nbohn/pundit/rest/service/PunService.class
+com/nbohn/pundit/rest/configuration/JpaConfiguration.class
+com/nbohn/pundit/rest/validation/ViolationMessages.class

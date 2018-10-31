@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!--[ Project Coordinates ]-->
+	<groupId>com.nbohn</groupId>
+	<artifactId>pundit</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>pundit</name>
+	<description>Pun Service to demo Spring Boot</description>
+
+	<modules>
+		<module>pundit-rest</module>
+	</modules>
+
+	<distributionManagement>
+		<site>
+			<id>${project.artifactId}</id>
+			<url>${url.site.base}/${project.artifactId}/</url>
+		</site>
+	</distributionManagement>
+
+	<!--[ Properties ]-->
+	<properties>
+
+		<!-- Version Properties -->
+        <java.version>1.8</java.version>
+		<version.spring.boot>2.0.6.RELEASE</version.spring.boot>
+
+		<!-- URL Properties -->
+		<url.site.base>file://${user.home}/site</url.site.base>
+
+		<!-- Project Properties -->
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+	</properties>
+
+	<!--[ Dependency Management ]-->
+	<!-- Dependencies here MAY be included by child modules if referenced. -->
+	<dependencyManagement>
+
+		<dependencies>
+
+		</dependencies>
+
+	</dependencyManagement>
+
+
+	<!--[ Common Dependencies ]-->
+	<!-- Dependencies here WILL be included by child modules automatically. -->
+	<dependencies>
+
+	</dependencies>
+
+	<!--[ Build Management ]-->
+	<build>
+
+	</build>
+
+
+</project>

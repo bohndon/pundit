@@ -1,0 +1,6 @@
+com/nbohn/pundit/rest/repository/AbstractJpaRepositoryTest.class
+com/nbohn/pundit/rest/repository/PunRepositoryIntegrationTest.class
+com/nbohn/pundit/rest/application/PunditRestApplicationTests.class
+com/nbohn/pundit/rest/controller/PunControllerTest.class
+com/nbohn/pundit/rest/model/enumeration/PunTypeTest.class
+com/nbohn/pundit/rest/model/entity/PunSample.class
